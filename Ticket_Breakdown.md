@@ -29,10 +29,14 @@ Tasks to Perform:
 
 <pre>Add Input Field for Agent Custom ID on the application and store in the database. <code>Estimate 1 days</code></pre> 
 <pre>Update response of getShiftsByFacility to return custom IDs as an additional metadata field. <code>Estimate 2h</code> </pre> 
-</br>
-3. <pre>Update generateReport to read custom ID from request and fallback on internal database ID otherwise. Update response. <code>Estimate 4h</code></pre> 
-4. <pre>Update and Writing tests for both getShiftsByFacility and generateReport functions. <code>Estimate 4h</code></pre>
+<pre>Update generateReport to read custom ID from request and fallback on internal database ID otherwise. Update response. <code>Estimate 4h</code></pre> 
+<pre>Update and Writing tests for both getShiftsByFacility and generateReport functions. <code>Estimate 4h</code></pre>
 
-Ticket 1 is dependency of Ticket 2 and 3. Ticket 2 and 3 can be worked in parallel by mocking the request and response. Ticket 4 can be picked up first or last depending upon the team if it follows Test driven development (TDD) or it can be picked later as well.
+<pre>
+Ticket 1 is dependency of Ticket 2 and 3. 
+Ticket 2 and 3 can be worked in parallel by mocking the request and response.
+Ticket 4 can be picked up first or last depending upon the team.
+If it follows Test driven development (TDD) or it can be picked later as well.
+<pre>
 
-|<code> Ticket 1</code> | <code>Ticket 4</code> | ==> | <code>Ticket 2</code> | <code>Ticket 3</code> | ==> | <code>Ticket 4</code> |
+<code>| Ticket 1 | Ticket 4 | ==> |Ticket 2 | Ticket 3 | ==> | Ticket 4 |</code>
