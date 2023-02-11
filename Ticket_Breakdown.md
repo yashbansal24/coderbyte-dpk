@@ -27,10 +27,10 @@ Tasks to Perform:
 
 ## Ticket Breakdown:
 
-<pre>Add Input Field for Agent Custom ID on the application and store in the database. <code>Estimate 1 days</code></pre> 
-<pre>Update response of getShiftsByFacility to return custom IDs as an additional metadata field. <code>Estimate 2h</code> </pre> 
-<pre>Update generateReport to read custom ID from request and fallback on internal database ID otherwise. Update response. <code>Estimate 4h</code></pre> 
-<pre>Update and Writing tests for both getShiftsByFacility and generateReport functions. <code>Estimate 4h</code></pre>
+<pre>1. Add Input Field for Agent Custom ID on the application and store in the database. <code>Estimate 1 days</code></pre> 
+<pre>2. Update response of getShiftsByFacility to return custom IDs as an additional metadata field. <code>Estimate 2h</code> </pre> 
+<pre>3. Update generateReport to read custom ID from request and fallback on internal database ID otherwise. Update response. <code>Estimate 4h</code></pre> 
+<pre>4. Update and Writing tests for both getShiftsByFacility and generateReport functions. <code>Estimate 4h</code></pre>
 
 <pre>
 Ticket 1 is dependency of Ticket 2 and 3. 
