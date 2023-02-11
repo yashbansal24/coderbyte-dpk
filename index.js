@@ -1,0 +1,5 @@
+const {deterministicPartitionKey} = require("./dpk");
+console.log(deterministicPartitionKey());
+console.log(deterministicPartitionKey({partitionKey: "1"}));
+console.log(deterministicPartitionKey({random: "1"}));
+console.log(deterministicPartitionKey({partitionKey: "dasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdbdasdahsbdsabdsabhdb"}));
