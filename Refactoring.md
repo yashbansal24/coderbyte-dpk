@@ -16,5 +16,7 @@ The improvements made
 1. Moving constants outside of function scope so that it can't be changed when new functions are added.
 2. Reduced 28 lines to 18 lines of code with simplication of logic.
 3. Returned Trivial case in the beginning to avoid any confusion.
-4. Added tests to check for 4 different cases, Trivial, partionKey length but less than MAX_LENGTH, partionKey length but more than MAX_LENGTH, random Event details
+4. Added tests to check for 4 different cases, Trivial, partionKey length but less than MAX_PARTITION_KEY_LENGTH, partionKey length but more than MAX_LENGTH, random Event details
 5. Self explanatory and simplified code
+
+This version is more readable and cleaner than the other because it contains less complicated if else system and is easy to read through. Lesser the code, there are less chances of bugs. I also used const instead of let keyword so there is less chance of tampering with values and variables become immutable. I would also have used <code>TypeScript</code> given there are explicit checks for string and our application might require strongly typed feature in future. 
